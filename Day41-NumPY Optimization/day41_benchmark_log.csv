@@ -1,0 +1,8 @@
+task,loop_seconds,vectorized_seconds,speedup_x
+sum of squares,0.040371,0.005035,8.0
+min-max normalize,0.187728,0.004621,40.6
+clip and scale,0.154187,0.002832,54.4
+pairwise products (2000x2000),0.405130,0.017278,23.4
+running max,0.072656,0.009588,7.6
+safe sqrt (math.sqrt vs np.sqrt),0.178366,0.004200,42.5
+trig transform (sin*cos+sqrt),0.277845,0.039752,7.0
